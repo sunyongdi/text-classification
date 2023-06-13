@@ -1,0 +1,33 @@
+# Compiled Python files
+*.pyc
+
+# Logs
+logs/
+*.log
+wandb
+
+# Model checkpoints
+checkpoints/
+*.pth
+*.pt
+
+# Tensorboard events file
+event.out.*
+
+# Virtual environment files
+venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files that should not be committed
+data/
+checkpoints/
+*.csv
+*.json
+*.pickle
+
+# Ignore everything in the __pycache__ directory
+__pycache__/
